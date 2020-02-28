@@ -13,7 +13,7 @@
 <%
 	char [] buffer = new char[128];
 	int charReader = -1;
-	String filePath = "C:\\WEB_JAVA\\jspTotalProject\\WebContent\\fileStreamReader\\LovePoem.txt";
+	String filePath = "C:\\WEB_JAVA\\jspTotalProject\\WebContent\\txtFile\\LovePoem.txt";
 	InputStreamReader fr = null;
 	
 	try {

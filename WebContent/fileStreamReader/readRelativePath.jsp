@@ -1,5 +1,4 @@
-<%@page import="java.io.IOException"%>
-<%@page import="java.io.InputStreamReader"%>
+<%@page import="java.io.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -11,8 +10,8 @@
 <body>
 <%
 	char [] buffer = new char[128];
-	int charReader = -1;
-	String filePath = "LovePoem.txt";
+	int charReader = -1; //문자열 길이
+	String filePath = "/txtFile/LovePoem.txt";
 	InputStreamReader fr = null;
 	try {
 		fr = new InputStreamReader(application.getResourceAsStream(filePath),"UTF-8");
