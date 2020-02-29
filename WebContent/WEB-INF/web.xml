@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+    
+    <!-- implicitValriable/application/getParamForXmlFile.jsp 에서사용하는 파라미터들 -->
+ <context-param>
+ 	<description>여기에는 설명을 적습니다!</description>
+ 	<param-name>param_name</param-name><!-- 파라미터 명 -->
+ 	<param-value>param_value</param-value><!--  파라미터 값 -->
+ </context-param>
+ 
+ <context-param>
+ 	<param-name>count</param-name>
+ 	<param-value>100</param-value>
+ </context-param>
+</web-app>
