@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>중국집</title>
+<title>Insert title here</title>
 </head>
 <body>
-<form action="layout.jsp">
-	
 
-</form>
 </body>
 </html>
